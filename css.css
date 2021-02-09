@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: rgb(116, 4, 4);
+    color:white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#menu{
+    position: fixed;
+   
+    text-align: center;
+    background: black;
+}
+
+#menu ul{
+   
+    background: black;
+    
+    
+    padding: 0;
+    list-style: none;
+}
+#menu ul li {
+    display: inline-block;
+}
+#menu ul li a{
+    display: block;
+    color:white;
+    padding: 25px;
+    text-decoration:none ;
+    
+}
+
+
+
+#menu ul li a:hover{ 
+    color:black;
+    background: white;
+}
