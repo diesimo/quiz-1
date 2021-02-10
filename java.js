@@ -39,3 +39,18 @@ function carrousel(contenedor){
      let contenedor= document.querySelector('.contenedor');
      carrousel(contenedor);
  });
+
+ var json={
+     "skills":[
+         {"nombre":"JavaScript","porcentaje":40},
+         {"nombre":"React", "porcentaje":50},
+         {"nombre":"CSS", "porcentaje":10},
+     ]
+ }
+
+ react=json.skills[1].porcentaje+"%"+" "+json.skills[1].nombre
+ java=json.skills[0].porcentaje+"%"+" "+json.skills[0].nombre
+ csss=json.skills[2].porcentaje+"%"+" "+json.skills[2].nombre
+document.getElementById("react").innerHTML=react;
+document.getElementById("java").innerHTML=java;
+document.getElementById("css").innerHTML=csss;

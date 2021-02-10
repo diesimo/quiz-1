@@ -249,3 +249,90 @@ height: 220px;
     margin:5px;
     width: 50%;
 }
+
+
+/*SKILLS*/
+
+.container_grafico{
+    width: 700px;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+:root{
+    --color_react: #3b5998;
+    --color_java: #00acce;
+    --color_css: #c8232c;
+    
+}
+
+
+.grafico{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_css) 10%,
+                        var(--color_java)10% 40%,var(--color_react) 40% 50%);
+    box-shadow: 1px 1px 5px 1px rgb(70,70,70);       
+}
+
+.leyenda_all{
+
+    display:flex;
+    align-items: center;
+    margin-bottom:10px;
+
+}
+[class^="color-"]{
+    width: 15px;
+    height: 15px;
+    background-color: var(--color_react);
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+.color-react{
+    background-color: var(--color_react);
+}
+.color-java{
+    background-color: var(--color_java);
+}
+
+.color-css{
+    background-color: var(--color_css);
+}
+
+/*contacts*/
+
+.envio{
+
+    width: 400px;
+   
+    background: #24303c;
+    padding:30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    
+}
+
+.inpt{
+    width: 100%;
+    background: #24303c;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+     
+}
+
+.envio .botons{
+    width: 100%;
+    background: #1f53c5;
+    border:none;
+    padding: 10px;
+    color: white;
+}
